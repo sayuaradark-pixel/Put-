@@ -3,11 +3,19 @@
   "version": "1.0.0",
   "description": "A multi functional WhatsApp bot Web paircode (Baileys Based)",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "start": "node index.js",
-    "dev": "node --watch index.js"
+    "dev": "node index.js"
   },
+  "keywords": [
+    "whatsapp-bot",
+    "baileys",
+    "express",
+    "web-pair",
+    "robin"
+  ],
+  "author": "Sayura Mihiranga",
+  "license": "MIT",
   "dependencies": {
     "@whiskeysockets/baileys": "^7.0.0-rc.8",
     "awesome-phonenumber": "^7.6.0",
@@ -18,5 +26,8 @@
     "phone": "^3.1.69",
     "qrcode": "^1.5.4",
     "rimraf": "^6.1.2"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
